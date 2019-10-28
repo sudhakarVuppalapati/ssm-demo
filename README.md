@@ -1,0 +1,3 @@
+https://cloud.spring.io/spring-cloud-static/spring-cloud-aws/2.0.0.RELEASE/multi/multi__cloud_environment.html
+
+we used the spring cloud AWS package (spring-cloud-starter-aws-parameter-store-config)  for reading the parameter how we read properties from property file using @value annotation. This is sample project will provide full details how to do it    see the above link for more details we used the spring cloud AWS package (spring-cloud-starter-aws-parameter-store-config)  for reading the parameter how we read properties from property file using @value annotation. This is sample project will provide full details how to do it    see the above link for more details
