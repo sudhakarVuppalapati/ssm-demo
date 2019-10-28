@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: gm-pulsar-consumer
+aws:
+  paramstore:
+    enabled: true
+    prefix: /telematics_cfg

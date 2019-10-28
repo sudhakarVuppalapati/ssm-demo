@@ -9,12 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SsmDemoApplication implements CommandLineRunner  {
 	
 	
-	
-	
-	
-	
 	@Autowired
-	TestParameter testParameter;
+	ConfigParameter configParameter;
 
 	public static void main(String[] args) {
 		SpringApplication.run(SsmDemoApplication.class, args);
@@ -23,7 +19,7 @@ public class SsmDemoApplication implements CommandLineRunner  {
 	@Override
 	public void run(String... args) throws Exception {
 		 
-		System.out.println("testParameter  : "+testParameter.getSomeParamName());
+	System.out.println("configParameter  : "+configParameter.SERVICE_URL);
 	}
 
 }
